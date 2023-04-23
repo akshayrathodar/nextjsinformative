@@ -1,0 +1,102 @@
+.contact-for-become-section {
+  background-color: #012269;
+  padding: 3rem 0;
+  /* margin-top: 1rem; */
+}
+
+.become-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.become-image {
+  height: 100%;
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  /* transform: scale(1.2); */
+}
+
+.dz-box.style-2 {
+  overflow: hidden;
+  position: relative;
+  transition: all 0.8s ease 0s;
+  border-radius: 50%;
+  border: 5px solid #fff;
+  height: 25rem !important;
+  width: 25rem !important;
+  z-index: 999;
+}
+
+.dz-box.style-2:hover .become-image {
+  transform: rotate(-5deg) scale(1.2);
+}
+
+.dz-box.style-2 .dz-media {
+  background-size: cover;
+  display: block;
+  transition: all 0.8s ease 0s;
+}
+
+.dz-box.style-2 .dz-info {
+  position: absolute;
+  background: rgba(14, 71, 186, 0.5);
+  width: 100%;
+  height: 100%;
+  left: 0;
+  top: 0;
+  opacity: 1;
+  visibility: visible;
+  padding: 20px;
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: all 0.8s ease 0s;
+}
+
+.dz-box.style-2 .dz-info .title {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+}
+
+.dz-box.style-2:hover .dz-info {
+  color: #c91030;
+  background: rgba(201, 16, 48, 0.05);
+  transform: scale(1.2);
+}
+
+.dz-box.style-2:hover {
+  border: 5px solid #c91030;
+  cursor: pointer;
+}
+
+.become-feedback {
+  background-image: url("../assets/img/BecomSection/Feedback.jpg");
+}
+
+.become-retail {
+  background-image: url("../assets/img/BecomSection/Retail.jpg");
+}
+
+.become-wholesale {
+  background-image: url("../assets/img/BecomSection/Customer.jpg");
+}
+
+.become-vendor {
+  background-image: url("../assets/img/BecomSection/Vendor.jpg");
+}
+
+@media screen and (max-width: 576px) {
+  .become-container {
+    flex-direction: column;
+  }
+
+  .dz-box.style-2 {
+    height: 20rem !important;
+    width: 20rem !important;
+  }
+}

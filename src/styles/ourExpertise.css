@@ -1,0 +1,43 @@
+.our-expertise-heading {
+  font-size: 2.5rem;
+  display: flex;
+  justify-content: center;
+  border-bottom: 5px solid #c91030;
+  width: fit-content !important;
+  padding-bottom: 1rem;
+}
+
+.expertise-card .card-title {
+  font-size: 1.25rem !important;
+  font-weight: 500 !important;
+  line-height: 1 !important;
+  font-style: normal !important;
+}
+
+.expertise-card .service-card-overlay {
+  justify-content: center !important ;
+  align-items: center;
+}
+
+.letsconnect-btn {
+  background-color: #012269;
+  text-decoration: none;
+  font-size: 2rem;
+  color: white;
+  border-radius: 2rem;
+  margin-top: 1rem !important ;
+  padding: 0 2.5rem;
+  text-align: center;
+  display: flex;
+  gap: 1rem;
+  align-items: center;
+}
+
+.letsconnect-btn i {
+  font-size: 2rem !important;
+}
+
+.letsconnect-btn:hover {
+  background-color: #c91030 !important;
+  color: #ffffff !important;
+}

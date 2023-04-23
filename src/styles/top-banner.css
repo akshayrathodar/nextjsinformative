@@ -1,0 +1,70 @@
+.top-banner {
+  height: 80vh;
+}
+
+.contact-us-banner {
+  background: rgba(0, 0, 0, 0) url("../assets/img/contactus.jpeg") no-repeat
+    center center / cover;
+}
+
+.about-us-banner {
+  background: rgba(0, 0, 0, 0) url("../assets/img/aboutus.png") no-repeat center
+    center / cover;
+}
+
+.director-message-banner {
+  background: rgba(0, 0, 0, 0) url("../assets/img/directorMessage.jpg")
+    no-repeat center center / cover;
+}
+.our-expertise-banner {
+  background: rgba(0, 0, 0, 0) url("../assets/img/ourExpertise.png") no-repeat
+    top center / cover;
+}
+.brands-banner {
+  background: rgba(0, 0, 0, 0) url("../assets/img/brands.jpg") no-repeat center
+    center / cover;
+}
+
+.top-banner-container {
+  height: 100%;
+  /* background: rgba(58, 95, 159, 0.8); */
+  background: rgb(9 12 18 / 50%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.top-banner-content {
+  /* border-left: 8px solid #012269; */
+  border-left: 8px solid #c91030;
+  border-radius: 8px;
+  padding-left: 1rem;
+  /* margin-top: 10rem; */
+  margin-left: 1rem;
+}
+
+.top-banner-content > h2 {
+  display: inline-block;
+  font-size: 60px;
+  font-weight: 900;
+  line-height: 1em;
+  letter-spacing: -1.6px;
+  -webkit-background-clip: text;
+  -moz-background-clip: text;
+  background-clip: text;
+}
+
+@media screen and (max-width: 567px) {
+  .top-banner {
+    height: 50vh;
+  }
+
+  .top-banner-content {
+    margin-left: 0rem;
+    padding-left: 0.5rem;
+  }
+
+  .top-banner-content > h2 {
+    font-size: 40px;
+  }
+}

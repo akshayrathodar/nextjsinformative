@@ -1,0 +1,67 @@
+/* #203662 */
+.true-intelligence {
+  background-color: #203662;
+  padding: 8rem 0;
+}
+
+.true-intelligence .card {
+  background: transparent;
+}
+
+.true-intelligence img {
+  /* border-radius: 10rem; */
+}
+
+.true-intelligence-header {
+  color: #ffffff;
+  font-size: 2.25rem;
+  font-weight: 900;
+  line-height: 1;
+}
+
+.true-intelligence-subheader {
+  color: #ffffff;
+  font-size: 1.75rem;
+  font-weight: 600;
+  line-height: 1;
+}
+
+.true-intelligence-span {
+  color: #ffffff;
+  font-size: 1.5rem;
+  font-weight: 400;
+  padding-bottom: calc(24px / 2);
+  display: flex;
+  gap: 1rem;
+  border-bottom: 1px solid #ffffff;
+  margin-bottom: 1.25rem;
+}
+
+.true-intelligence-container {
+  display: flex;
+  flex-direction: column;
+  gap: 5rem;
+}
+
+.intelligence-card {
+  border: none !important;
+  /* height: 450px !important ; */
+  transform: scale(1.3);
+}
+
+.intelligence-card img {
+  border-radius: 50%;
+  width: 100%;
+  height: 100%;
+}
+
+@media screen and (max-width: 992px) {
+  .gap-m-5 {
+    gap: 5rem !important ;
+  }
+}
+@media screen and (max-width: 768px) {
+  .brands-image-container {
+    gap: 0;
+  }
+}

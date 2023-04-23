@@ -1,0 +1,80 @@
+.director-card {
+  height: 475px !important;
+  overflow: hidden;
+  /* border-radius: 50% !important; */
+}
+
+.our-value-heading {
+  color: white;
+  font-size: 2.5rem;
+  border-bottom: 5px solid #c91030;
+  width: fit-content !important ;
+  padding-bottom: 1rem;
+}
+
+.value-card {
+  transform: scale(1.2);
+  transition: all 0.5s ease;
+  height: 21rem !important ;
+}
+
+.value-card-container {
+  border: none !important;
+  background-color: #ffffff;
+  border-radius: 0.625rem;
+  transition: all 0.3s ease 0s;
+  overflow: hidden;
+}
+
+.value-card-overlay {
+  background: rgba(58, 95, 159, 0.3);
+  color: #ffffff;
+  display: flex;
+  flex-direction: column;
+  gap: 0.25rem;
+  transition: all 0.3s ease;
+  cursor: pointer;
+  padding: 0 !important;
+}
+.animation-container {
+  background-color: #c91030;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  padding: 2rem;
+  display: flex;
+  flex-direction: column;
+  border-radius: 0.5rem;
+  transform: translate(0%, 100%);
+  transition: all 0.5s ease;
+  text-align: center;
+}
+
+.animation-container .value-card-title {
+  font-size: 2.25rem;
+  color: #012269;
+  font-style: italic;
+  font-weight: bolder;
+  /* visibility: hidden; */
+  /* display: none; */
+}
+
+.animation-container p {
+  font-size: 1.5rem !important;
+  line-height: 1;
+  padding: 0 2rem;
+}
+
+.value-card-container:hover .animation-container {
+  transform: translate(0px, 50%);
+}
+
+.value-card-container:hover .value-card {
+  transform: rotate(-2deg) scale(1.1);
+}
+
+.director-para {
+  font-size: 1.25rem;
+  line-height: 1.25;
+  text-align: justify;
+}

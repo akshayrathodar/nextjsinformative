@@ -1,0 +1,122 @@
+.service-container {
+  background-color: #012269;
+  padding: 3rem 0;
+}
+
+.service-container .container {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.medicine-image {
+  height: 100%;
+}
+
+.service-header {
+  color: #ffffff;
+  font-size: 3.25rem;
+  font-weight: 600;
+}
+
+.service-card {
+  border: none !important;
+  background-color: #ffffff;
+  border-radius: 0.625rem;
+  -webkit-transition: all 0.3s ease 0s;
+  transition: all 0.3s ease 0s;
+  overflow: hidden;
+}
+
+.service-card .card-img {
+  height: 15rem;
+  object-fit: cover;
+}
+
+.card-img {
+  transition: all 0.3s ease 0s;
+}
+
+.service-card-overlay {
+  background: rgba(58, 95, 159, 0.3);
+  color: #ffffff;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  gap: 0.25rem;
+}
+
+.service-card-overlay i {
+  font-size: 3.5rem;
+}
+
+.service-card:hover .card-img {
+  -webkit-transform: rotate(-2deg) scale(1.1);
+  transform: rotate(-2deg) scale(1.1);
+}
+
+.service-card::before {
+  position: absolute;
+  top: 0px;
+  left: -85%;
+  z-index: 2;
+  display: block;
+  content: "";
+  width: 50%;
+  height: 100%;
+  background: linear-gradient(
+    to right,
+    rgba(255, 255, 255, 0) 0%,
+    rgba(255, 255, 255, 0.3) 100%
+  );
+  transform: skewX(-25deg);
+  transition: all 0.5s ease 0s;
+}
+.service-card:hover::before {
+  left: 85%;
+}
+
+.brands-image-container {
+  display: flex;
+  flex-direction: row;
+  gap: 1rem;
+  background-color: #ffffff;
+  padding: 0 1rem;
+  justify-content: center;
+}
+
+.brands-image-container img {
+  height: 6.5rem;
+  max-width: 100%;
+}
+
+.service-card .card-title {
+  font-weight: 600;
+  color: #ffffff;
+  transition: all 0.3s ease-in;
+}
+
+.service-card:hover .card-title {
+  color: #c91030;
+}
+
+.service-card-logo {
+  height: 4rem;
+  width: 4rem;
+}
+
+.home-service-container {
+  background-color: #000000;
+}
+
+@media screen and (max-width: 576px) {
+  .medicine-image {
+    height: 275px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .brands-image-container img {
+    height: 5.5rem;
+  }
+}

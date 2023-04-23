@@ -1,0 +1,69 @@
+.our-mission-container {
+  /* background: rgba(0, 0, 0, 0) url("../assets/img/ourmission.png") no-repeat
+    fixed center center / cover; */
+  background: #012269;
+  color: #ffffff;
+}
+
+.our-mission-container h2 {
+  font-size: 2.5rem;
+}
+
+.our-mission-para {
+  line-height: 2.25;
+  font-size: 1.25rem;
+}
+
+.pride-container img {
+  height: 100%;
+  width: 100%;
+}
+
+.pride-container p {
+  font-size: 1.25rem;
+}
+
+@media screen and (max-width: 576px) {
+  .our-mission-container img {
+    height: 300px;
+    object-fit: none;
+  }
+  .our-mission-container .row {
+    flex-direction: column !important;
+    gap: 1rem !important;
+  }
+
+  .px-10 {
+    padding: 0 1rem !important;
+  }
+
+  .pride-container img {
+    height: 185px;
+  }
+}
+
+@media screen and (min-width: 576px) and (max-width: 1024px) {
+  /* .our-image-container img {
+    /* height: 500px; 
+    /* object-fit: none; 
+    /* width: 50%; 
+  } */
+  /* .our-mission-container .row { */
+  /* flex-direction: column !important; */
+  /* gap: 1rem !important; */
+  /* } */
+
+  .px-10 {
+    padding: 0 1rem !important;
+  }
+
+  .pride-container img {
+    height: 185px;
+  }
+}
+
+.about-us-content p {
+  font-size: 1.5rem;
+  line-height: 1.25;
+  text-align: justify;
+}
