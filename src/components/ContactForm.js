@@ -38,7 +38,7 @@ const ContactForm = () => {
       setForm({ state: "loading" });
       try {
         const res = await fetch(`/api/contact`, {
-          method: "PUT",
+          method: "POST",
           headers: {
             "Accept": "application/json, text/plain, */*",
             "Content-Type": "application/json",
